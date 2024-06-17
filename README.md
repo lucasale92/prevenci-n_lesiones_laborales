@@ -1,10 +1,11 @@
-Institución: Politécnico Malvinas Argentinas.  https://politecnico.tdf.gob.ar/
-Carrera: Tecnicatura Superior en Ciencia de Datos e Inteligencia Artificial.
-Asignatura: Aprendizaje Automático 
-Año: 2024
+**Institución:** Politécnico Malvinas Argentinas.  https://politecnico.tdf.gob.ar/
+**Carrera:** Tecnicatura Superior en Ciencia de Datos e Inteligencia Artificial.
+*Asignatura:* Aprendizaje Automático 
+*Año:* 2024
+**profesor:** Martin Mirabete
 
-**cookiecutter.project:**: Predicción de Rotación de Puestos para la Prevención de Lesiones en Fábricas de Ensamblaje
-**Developed by:** : Lucas Alejandro Riveros
+**cookiecutter.project:** Predicción de Rotación de Puestos para la Prevención de Lesiones en Fábricas de Ensamblaje
+**Developed by:**  Lucas Alejandro Riveros
 ==============================
 
 {{cookiecutter.description}}
