@@ -95,6 +95,7 @@ Project Organization
 ------------
 Organización del Proyecto 📂
 
+
 ├── LICENSE
 ├── Makefile           <- Makefile con comandos como `make data` o `make train`
 ├── README.md          <- El README principal para los desarrolladores que utilizan este proyecto
@@ -139,6 +140,7 @@ Organización del Proyecto 📂
 │       └── visualize.py
 │
 └── tox.ini            <- Archivo tox con configuraciones para ejecutar tox; consulta tox.readthedocs.io
+
 
 --------
 
