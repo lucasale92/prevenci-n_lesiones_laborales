@@ -23,17 +23,17 @@
 <p align="center">
   <strong>Profesor:</strong> Martin Mirabete
 </p>
-==============================
+------------
 
-**{{cookiecutter.description}}**
 
-*Descripción del Proyecto*
+**{{cookiecutter.description}}** *Descripción del Proyecto*
+
 El objetivo principal de este proyecto es aplicar técnicas de Aprendizaje Automático para predecir cuándo un trabajador de una fábrica de ensamblaje debe rotar de un puesto específico para prevenir lesiones. Utilizando datos históricos de lesiones, información demográfica de los trabajadores y detalles de los puestos de trabajo, se desarrollará un modelo predictivo que ayude a identificar el momento óptimo para la rotación, considerando factores como la duración en el puesto, la repetitividad de las tareas y la postura requerida. Este análisis busca proporcionar insights valiosos para mejorar la seguridad y el bienestar de los trabajadores en el entorno de fabricación.
 Dataset
 El dataset fue proporcionado directamente por la fábrica de ensamblaje, con el consentimiento y la aprobación de la gerencia y los representantes sindicales. Los datos fueron anonimizados para proteger la privacidad de los trabajadores.
 Preguntas de Investigación
 
-==============================
+------------
 
 ¿Cuáles son las características más influyentes para predecir el riesgo de lesiones en un puesto específico?
 
@@ -54,7 +54,7 @@ Propósito: Evaluar la efectividad del modelo para predecir la necesidad de rota
 
 Propósito: Desarrollar una estrategia para implementar el modelo de manera práctica en el entorno de fabricación.
 
-==============================
+------------
 
 
 **Etapas del Proyecto**
@@ -89,6 +89,9 @@ Informe Final: Elaboración de un informe detallado que resuma los hallazgos, la
 Modelo Predictivo: Desarrollo de un modelo de aprendizaje automático capaz de predecir con precisión cuándo un trabajador debe rotar de un puesto específico para prevenir lesiones.
 Insights Accionables: Identificación de los factores clave que influyen en el riesgo de lesiones y recomendaciones para mejorar la seguridad de los trabajadores.
 
+------------
+
+Project Organization
 ------------
 
 ├── LICENSE
