@@ -1,0 +1,3 @@
+Los datos todavia no han sido proporcionados, pero ya estan solicitados. 
+El csv es simplemente la estructura para trabajar con la idea del proyecto. 
+Esta sujeto a sugerencias y correcciones.

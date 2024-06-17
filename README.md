@@ -23,7 +23,7 @@
 <p align="center">
   <strong>Profesor:</strong> Martin Mirabete
 </p>
-------------
+
 
 ## **Origen del Dataset:**
 Los datos van a ser proporcionados directamente por la fábrica de ensamblaje en este caso trabajaré con Mirgor, con el consentimiento y la aprobación de la empresa. La recopilación de datos se realizará a través del sistema de recursos humanos de la empresa y los registros de seguridad y salud ocupacional.
