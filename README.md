@@ -93,8 +93,10 @@ Insights Accionables: Identificación de los factores clave que influyen en el r
 
 Project Organization
 ------------
-Archivo/DirectorioDescripciónLICENSELicencia del proyectoMakefileMakefile con comandos como make data o make trainREADME.mdEl README principal para los desarrolladores que utilizan este proyectodata/Directorio para almacenar los datos    external/Datos de terceras fuentes    interim/Datos intermedios que han sido transformados    processed/Los conjuntos de datos finales y canónicos para el modelado    raw/Los datos originales e inmutablesdocs/Un proyecto Sphinx por defecto; consulta sphinx-doc.org para más detallesmodels/Modelos entrenados y serializados, predicciones de modelos o resúmenes de modelosnotebooks/Notebooks de Jupyter. La convención de nombres es un número (para el ordenamiento), las iniciales del creador y una descripción corta y delimitada por -, p. ej. 1.0-jqp-initial-data-explorationreferences/Diccionarios de datos, manuales y todos los demás materiales explicativosreports/Análisis generados como HTML, PDF, LaTeX, etc.    figures/Gráficos y figuras generados para ser utilizados en los informesrequirements.txtEl archivo de requisitos para reproducir el entorno de análisis, p. ej. generado con pip freeze > requirements.txtsetup.pyHace que el proyecto sea instalable (pip install -e .) para que src pueda ser importadosrc/Código fuente para su uso en este proyecto    __init__.pyHace que src sea un módulo de Python    data/Scripts para descargar o generar datos        make_dataset.pyScript para crear el dataset    features/Scripts para convertir los datos sin procesar en características para el modelado        build_features.pyScript para generar características    models/Scripts para entrenar modelos y luego usar los modelos entrenados para hacer predicciones        predict_model.pyScript para hacer predicciones usando el modelo entrenado        train_model.pyScript para entrenar el modelo    visualization/Scripts para crear visualizaciones exploratorias y orientadas a resultados        visualize.pyScript para crear visualizacionestox.iniArchivo tox con configuraciones para ejecutar tox; consulta tox.readthedocs.io## Organización del Proyecto 📂
+Organización del Proyecto 📂
+## Estructura del Proyecto
 
+```plaintext
 ├── LICENSE
 ├── Makefile           <- Makefile con comandos como `make data` o `make train`
 ├── README.md          <- El README principal para los desarrolladores que utilizan este proyecto
@@ -140,6 +142,5 @@ Archivo/DirectorioDescripciónLICENSELicencia del proyectoMakefileMakefile con c
 │
 └── tox.ini            <- Archivo tox con configuraciones para ejecutar tox; consulta tox.readthedocs.io
 
---------
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
