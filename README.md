@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="/src/static/logo.jpeg" alt="Logo del proyecto" width="200">
+  <img src="/src/static/logo.jpeg" alt="Logo del proyecto" width="500">
   <h1>Predicción de Rotación de Puestos para la Prevención de Lesiones en Fábricas de Ensamblaje</h1>
 </div>
 
@@ -27,50 +27,62 @@
 
 **{{cookiecutter.description}}**
 
+Descripción del Proyecto
 El objetivo principal de este proyecto es aplicar técnicas de Aprendizaje Automático para predecir cuándo un trabajador de una fábrica de ensamblaje debe rotar de un puesto específico para prevenir lesiones. Utilizando datos históricos de lesiones, información demográfica de los trabajadores y detalles de los puestos de trabajo, se desarrollará un modelo predictivo que ayude a identificar el momento óptimo para la rotación, considerando factores como la duración en el puesto, la repetitividad de las tareas y la postura requerida. Este análisis busca proporcionar insights valiosos para mejorar la seguridad y el bienestar de los trabajadores en el entorno de fabricación.
+Dataset
+El dataset fue proporcionado directamente por la fábrica de ensamblaje, con el consentimiento y la aprobación de la gerencia y los representantes sindicales. Los datos fueron anonimizados para proteger la privacidad de los trabajadores.
+Preguntas de Investigación
 
-*Dataset*: El dataset fue proporcionado directamente por la fábrica de ensamblaje, con el consentimiento y la aprobación de la gerencia y los representantes sindicales. Los datos fueron anonimizados para proteger la privacidad de los trabajadores.
-
-------------
-
-[-] Preguntas de Investigación del Proyecto:
-
-1-¿Cuáles son las características más influyentes para predecir el riesgo de lesiones en un puesto específico?
+¿Cuáles son las características más influyentes para predecir el riesgo de lesiones en un puesto específico?
 
 Propósito: Identificar los factores clave que contribuyen al riesgo de lesiones para tomar medidas preventivas.
 
-2-¿Cuál es el intervalo de tiempo óptimo para la rotación de puestos con el fin de minimizar el riesgo de lesiones?
+
+¿Cuál es el intervalo de tiempo óptimo para la rotación de puestos con el fin de minimizar el riesgo de lesiones?
 
 Propósito: Determinar la frecuencia adecuada de rotación para mantener la seguridad de los trabajadores.
 
-3-¿Qué nivel de precisión y rendimiento se puede lograr con el modelo de aprendizaje automático propuesto?
+
+¿Qué nivel de precisión y rendimiento se puede lograr con el modelo de aprendizaje automático propuesto?
 
 Propósito: Evaluar la efectividad del modelo para predecir la necesidad de rotación y prevenir lesiones.
 
-4-¿Cómo se puede integrar el modelo de predicción en los procesos existentes de las fábricas de ensamblaje?
+
+¿Cómo se puede integrar el modelo de predicción en los procesos existentes de las fábricas de ensamblaje?
 
 Propósito: Desarrollar una estrategia para implementar el modelo de manera práctica en el entorno de fabricación.
 
 ------------
 
-[-] Etapas del Proyecto:
-[-] Metodología Extracción y Preparación de Datos
+Etapas del Proyecto
+1. Metodología Extracción y Preparación de Datos
+
 Extracción de Datos: Los datos se obtuvieron de la fábrica de ensamblaje en formato CSV.
 Preprocesamiento: Incluye la limpieza de datos, manejo de valores faltantes y codificación de variables categóricas.
-[-] Análisis Exploratorio de Datos (EDA)
+
+2. Análisis Exploratorio de Datos (EDA)
+
 Visualización de Datos: Utilización de gráficos para entender la distribución de las variables y las relaciones entre ellas.
 Estadísticas Descriptivas: Cálculo de medidas de tendencia central, dispersión y correlación.
-[-] Modelado Predictivo
+
+3. Modelado Predictivo
+
 Selección de Modelos: Elección de algoritmos de aprendizaje automático adecuados, como árboles de decisión, random forests o máquinas de vectores de soporte (SVM).
 Entrenamiento y Evaluación de Modelos: División de los datos en conjuntos de entrenamiento y prueba, entrenamiento de los modelos y evaluación de su rendimiento utilizando métricas apropiadas.
-[-] Optimización y Validación
+
+4. Optimización y Validación
+
 Ajuste de Hiperparámetros: Optimización de los hiperparámetros de los modelos para mejorar su desempeño.
 Validación Cruzada: Uso de técnicas de validación cruzada para asegurar la generalización de los modelos.
-[-] Interpretación y Comunicación de Resultados
+
+5. Interpretación y Comunicación de Resultados
+
 Interpretación de Resultados: Análisis de los resultados obtenidos y extracción de conclusiones relevantes.
 Visualización de Resultados: Presentación de los resultados a través de gráficos y tablas claras y comprensibles.
 Informe Final: Elaboración de un informe detallado que resuma los hallazgos, las limitaciones y las recomendaciones del proyecto.
-[-] Resultados Esperados
+
+Resultados Esperados
+
 Modelo Predictivo: Desarrollo de un modelo de aprendizaje automático capaz de predecir con precisión cuándo un trabajador debe rotar de un puesto específico para prevenir lesiones.
 Insights Accionables: Identificación de los factores clave que influyen en el riesgo de lesiones y recomendaciones para mejorar la seguridad de los trabajadores.
 
