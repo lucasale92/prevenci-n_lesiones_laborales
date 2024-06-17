@@ -3,19 +3,26 @@
   <h1>Predicción de Rotación de Puestos para la Prevención de Lesiones en Fábricas de Ensamblaje</h1>
 </div>
 
-**Institución:** Politécnico Malvinas Argentinas.  https://politecnico.tdf.gob.ar/
-
-**Carrera:** Tecnicatura Superior en Ciencia de Datos e Inteligencia Artificial.
-
-*Asignatura:* Aprendizaje Automático 
-
-*Año:* 2024
-
-**Profesor:** Martin Mirabete
-
-**cookiecutter.project:** Predicción de Rotación de Puestos para la Prevención de Lesiones en Fábricas de Ensamblaje
-
-**Autor:**  Lucas Alejandro Riveros
+<p align="center">
+  <a href="https://politecnico.tdf.gob.ar/">
+    <img src="https://img.shields.io/badge/institución-Politécnico%20Malvinas%20Argentinas-blue" alt="Institución">
+  </a>
+  <a href="https://www.example.com/carrera">
+    <img src="https://img.shields.io/badge/carrera-Tecnicatura%20Superior%20en%20Ciencia%20de%20Datos%20e%20Inteligencia%20Artificial-brightgreen" alt="Carrera">
+  </a>
+  <a href="https://www.example.com/asignatura">
+    <img src="https://img.shields.io/badge/asignatura-Aprendizaje%20Automático-orange" alt="Asignatura">
+  </a>
+  <a href="https://www.example.com/año">
+    <img src="https://img.shields.io/badge/año-2024-yellowgreen" alt="Año">
+  </a>
+</p>
+<p align="center">
+  <strong>Autor:</strong> Lucas Alejandro Riveros
+</p>
+<p align="center">
+  <strong>Profesor:</strong> Martin Mirabete
+</p>
 ==============================
 
 **{{cookiecutter.description}}**
