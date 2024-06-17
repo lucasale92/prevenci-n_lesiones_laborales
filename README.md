@@ -6,16 +6,36 @@
 
 *Año:* 2024
 
-**profesor:** Martin Mirabete
+**Profesor:** Martin Mirabete
 
 **cookiecutter.project:** Predicción de Rotación de Puestos para la Prevención de Lesiones en Fábricas de Ensamblaje
 
-**Developed by:**  Lucas Alejandro Riveros
+**Autor:**  Lucas Alejandro Riveros
 ==============================
 
-{{cookiecutter.description}}
+**{{cookiecutter.description}}**
 
+El objetivo principal de este proyecto es aplicar técnicas de Aprendizaje Automático para predecir cuándo un trabajador de una fábrica de ensamblaje debe rotar de un puesto específico para prevenir lesiones. Utilizando datos históricos de lesiones, información demográfica de los trabajadores y detalles de los puestos de trabajo, se desarrollará un modelo predictivo que ayude a identificar el momento óptimo para la rotación, considerando factores como la duración en el puesto, la repetitividad de las tareas y la postura requerida. Este análisis busca proporcionar insights valiosos para mejorar la seguridad y el bienestar de los trabajadores en el entorno de fabricación.
 
+*Dataset*: El dataset fue proporcionado directamente por la fábrica de ensamblaje, con el consentimiento y la aprobación de la gerencia y los representantes sindicales. Los datos fueron anonimizados para proteger la privacidad de los trabajadores.
+
+[-] Preguntas de Investigación del Proyecto:
+
+1-¿Cuáles son las características más influyentes para predecir el riesgo de lesiones en un puesto específico?
+
+Propósito: Identificar los factores clave que contribuyen al riesgo de lesiones para tomar medidas preventivas.
+
+2-¿Cuál es el intervalo de tiempo óptimo para la rotación de puestos con el fin de minimizar el riesgo de lesiones?
+
+Propósito: Determinar la frecuencia adecuada de rotación para mantener la seguridad de los trabajadores.
+
+3-¿Qué nivel de precisión y rendimiento se puede lograr con el modelo de aprendizaje automático propuesto?
+
+Propósito: Evaluar la efectividad del modelo para predecir la necesidad de rotación y prevenir lesiones.
+
+4-¿Cómo se puede integrar el modelo de predicción en los procesos existentes de las fábricas de ensamblaje?
+
+Propósito: Desarrollar una estrategia para implementar el modelo de manera práctica en el entorno de fabricación.
 
 Project Organization
 ------------
