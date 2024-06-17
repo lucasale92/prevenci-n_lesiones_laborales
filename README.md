@@ -1,7 +1,15 @@
-{{cookiecutter.project_name}}
+Institución: Politécnico Malvinas Argentinas.  https://politecnico.tdf.gob.ar/
+Carrera: Tecnicatura Superior en Ciencia de Datos e Inteligencia Artificial.
+Asignatura: Aprendizaje Automático 
+Año: 2024
+
+cookiecutter.project: Predicción de Rotación de Puestos para la Prevención de Lesiones en Fábricas de Ensamblaje
+Desarrollado por: Lucas Alejandro Riveros
 ==============================
 
 {{cookiecutter.description}}
+
+
 
 Project Organization
 ------------
