@@ -25,19 +25,23 @@
 </p>
 ------------
 
-**Origen del Dataset:**
+## **Origen del Dataset:**
 Los datos van a ser proporcionados directamente por la fábrica de ensamblaje en este caso trabajaré con Mirgor, con el consentimiento y la aprobación de la empresa. La recopilación de datos se realizará a través del sistema de recursos humanos de la empresa y los registros de seguridad y salud ocupacional.
 Antes de compartir los datos, la fábrica realizará un proceso de anonimización para proteger la privacidad de los trabajadores. Cada trabajador fue asignado un identificador único (worker_id) y se eliminaron los nombres y otra información de identificación personal.
 Los datos serán extraídos en formato CSV y proporcionados para su uso en este proyecto. Se propone una verificación inicial de la calidad de los datos para garantizar su integridad y consistencia. No se aplicaron otras técnicas de preprocesamiento significativas en esta etapa.
 
-**{{cookiecutter.description}}** *Descripción del Proyecto*
+------------
+
+**{{cookiecutter.description}}**
+
+## Descripción del Proyecto
 
 El objetivo principal de este proyecto es aplicar técnicas de Aprendizaje Automático para predecir cuándo un trabajador de una fábrica de ensamblaje debe rotar de un puesto específico para prevenir lesiones. Utilizando datos históricos de lesiones, información demográfica de los trabajadores y detalles de los puestos de trabajo, se desarrollará un modelo predictivo que ayude a identificar el momento óptimo para la rotación, considerando factores como la duración en el puesto, la repetitividad de las tareas y la postura requerida. Este análisis busca proporcionar insights valiosos para mejorar la seguridad y el bienestar de los trabajadores en el entorno de fabricación.
 Dataset
 El dataset fue proporcionado directamente por la fábrica de ensamblaje, con el consentimiento y la aprobación de la gerencia y los representantes sindicales. Los datos fueron anonimizados para proteger la privacidad de los trabajadores.
-Preguntas de Investigación
 
 ------------
+## Preguntas de Investigación
 
 ¿Cuáles son las características más influyentes para predecir el riesgo de lesiones en un puesto específico?
 
@@ -61,7 +65,7 @@ Propósito: Desarrollar una estrategia para implementar el modelo de manera prá
 ------------
 
 
-**Etapas del Proyecto**
+## Etapas del Proyecto
 1. Metodología Extracción y Preparación de Datos
 
 Extracción de Datos: Los datos se obtuvieron de la fábrica de ensamblaje en formato CSV.
@@ -93,12 +97,10 @@ Informe Final: Elaboración de un informe detallado que resuma los hallazgos, la
 Modelo Predictivo: Desarrollo de un modelo de aprendizaje automático capaz de predecir con precisión cuándo un trabajador debe rotar de un puesto específico para prevenir lesiones.
 Insights Accionables: Identificación de los factores clave que influyen en el riesgo de lesiones y recomendaciones para mejorar la seguridad de los trabajadores.
 
-------------
 
-Project Organization
 ------------
+## Estructura
 Organización del Proyecto 📂
-## Estructura del Proyecto
 
 ```plaintext
 ├── LICENSE
