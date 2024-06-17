@@ -97,12 +97,19 @@ Organización del Proyecto 📂
 
 
 ├── LICENSE
-├── Makefile           <- Makefile con comandos como `make data` o `make train`
+
+├── Makefile    <- Makefile con comandos como `make data` o `make train`
+
 ├── README.md          <- El README principal para los desarrolladores que utilizan este proyecto
+
 ├── data
+
 │   ├── external       <- Datos de terceras fuentes
+
 │   ├── interim        <- Datos intermedios que han sido transformados
+
 │   ├── processed      <- Los conjuntos de datos finales y canónicos para el modelado
+
 │   └── raw            <- Los datos originales e inmutables
 │
 ├── docs               <- Un proyecto Sphinx por defecto; consulta sphinx-doc.org para más detalles
@@ -116,12 +123,14 @@ Organización del Proyecto 📂
 ├── references         <- Diccionarios de datos, manuales y todos los demás materiales explicativos
 │
 ├── reports            <- Análisis generados como HTML, PDF, LaTeX, etc.
+
 │   └── figures        <- Gráficos y figuras generados para ser utilizados en los informes
 │
 ├── requirements.txt   <- El archivo de requisitos para reproducir el entorno de análisis, p. ej.
 │                         generado con `pip freeze > requirements.txt`
 │
 ├── setup.py           <- Hace que el proyecto sea instalable (pip install -e .) para que src pueda ser importado
+
 ├── src                <- Código fuente para su uso en este proyecto
 │   ├── __init__.py    <- Hace que src sea un módulo de Python
 │   │
@@ -134,6 +143,7 @@ Organización del Proyecto 📂
 │   ├── models         <- Scripts para entrenar modelos y luego usar los modelos entrenados para hacer
 │   │   │                 predicciones
 │   │   ├── predict_model.py
+
 │   │   └── train_model.py
 │   │
 │   └── visualization  <- Scripts para crear visualizaciones exploratorias y orientadas a resultados
