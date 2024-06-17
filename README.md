@@ -25,6 +25,10 @@
 </p>
 ------------
 
+**Origen del Dataset:**
+Los datos van a ser proporcionados directamente por la fábrica de ensamblaje en este caso trabajaré con Mirgor, con el consentimiento y la aprobación de la empresa. La recopilación de datos se realizará a través del sistema de recursos humanos de la empresa y los registros de seguridad y salud ocupacional.
+Antes de compartir los datos, la fábrica realizará un proceso de anonimización para proteger la privacidad de los trabajadores. Cada trabajador fue asignado un identificador único (worker_id) y se eliminaron los nombres y otra información de identificación personal.
+Los datos serán extraídos en formato CSV y proporcionados para su uso en este proyecto. Se propone una verificación inicial de la calidad de los datos para garantizar su integridad y consistencia. No se aplicaron otras técnicas de preprocesamiento significativas en esta etapa.
 
 **{{cookiecutter.description}}** *Descripción del Proyecto*
 
